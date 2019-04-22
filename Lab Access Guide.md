@@ -1,7 +1,25 @@
-# Lab Guide
-This guide provides instructions that allow you to demonstrate the functionality of Intel® Speed Select Technology - Base Frequency, hereafter referred to as "Intel® SST-BF", or "SST-BF".
+# Lab Access User Guide(Intel Network Builder NDA Partner Training)
+This guide provides instructions that allow you to access INB NDA HoL(Hands-on-Lab)
 
 &nbsp;
+
+1.	Please check your wireless network and connect to  ‘Intel_Network’  for SSID WiFi Network
+•	 Make sure your wireless adapter is set to dynamically obtain an IP address 
+•	 Connect to the wireless network
+Wifi Name: Intel_Network, Wifi Password: Training
+
+2.	Install SSH Client terminal(If SSH Client terminal is already installed, skip to step 3)
+Windows OS	MacOS/Linux/Chrome OS
+Install PuTTY
+https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
+or
+Install MobaXterm
+https://mobaxterm.mobatek.net/download-home-edition.html
+MacOS/Linux : Application -> Terminal
+
+Chrome OS : Chrome app store -> Secure Shell app
+
+3.	SSH Client terminal setting for SSH tunneling(Destination IP: Your assigned access VM)
 
 ## Lab Overview
 In this lab you will use a network traffic generator and two Virtual Network Function (VNF) workloads to demonstrate the performance enhancing ability of Intel® SST-BF.
