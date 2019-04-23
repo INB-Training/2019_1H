@@ -5,6 +5,7 @@
 * Connect to the wireless network
 > Wifi Name: **Intel_Network**, Wifi Password: **Training**
 
+&nbsp;
      
 ## DAY 1(4/21) Agenda  
 
