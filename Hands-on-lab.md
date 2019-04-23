@@ -1,5 +1,7 @@
 # Intel Network Builder NDA Partner Training
 
+&nbsp;
+
 ## Please check your wireless network and connect to  ‘Intel_Network’  for SSID WiFi Network
 * Make sure your wireless adapter is set to dynamically obtain an IP address 
 * Connect to the wireless network
@@ -28,15 +30,16 @@
 | 03:45 pm - 04:15 pm | Wrap up |
 | 04:15 pm - 05:45 pm | Reception |
 
+&nbsp;
 
 ## Lab Access User Guide 
 This guide provides instructions that allow you to access INB NDA HoL(Hands-on-Lab)
 > https://github.com/INB-Training/2019_1H/wiki/Hands-on-lab-for-NDA-training
 
+&nbsp;
 
-# Hands on Labs courses
+## Contents of Hands on Labs courses
 
-## Contents
 - [ ] **Lab. #1(Day 1):** [Introduction to Speed Step Technology - Base Frequency(SST-BF)] 
 - [ ] **Lab. #2(Day 2):** Vtune Platform Profiler(VPP)
 - [ ] **Lab. #3(Day 2):** Vtune Amplifier
