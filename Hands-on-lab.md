@@ -1,5 +1,10 @@
 # Intel Network Builder NDA Partner Training
 
+## Please check your wireless network and connect to  ‘Intel_Network’  for SSID WiFi Network
+* Make sure your wireless adapter is set to dynamically obtain an IP address 
+* Connect to the wireless network
+> Wifi Name: **Intel_Network**, Wifi Password: **Training**
+
 ## DAY 1(4/21) Agenda  
 
 | TIME                | DAY 1 SESSION |
