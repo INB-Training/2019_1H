@@ -5,6 +5,7 @@
 * Connect to the wireless network
 > Wifi Name: **Intel_Network**, Wifi Password: **Training**
 
+
 ## DAY 1(4/21) Agenda  
 
 | TIME                | DAY 1 SESSION |
@@ -35,9 +36,9 @@ This guide provides instructions that allow you to access INB NDA HoL(Hands-on-L
 # Hands on Labs courses
 
 ## Contents
-- [ ] **Lab. #1(Day 1):** Introduction to Speed Step Technology - Base Frequency(SST-BF) 
+- [ ] **Lab. #1(Day 1):** [Introduction to Speed Step Technology - Base Frequency(SST-BF)] 
 - [ ] **Lab. #2(Day 2):** Vtune Platform Profiler(VPP)
 - [ ] **Lab. #3(Day 2):** Vtune Amplifier
 - [ ] **Lab. #4(Day 2):** Vectorization and Acceleration on IA
 
-&nbsp;
+ [Introduction to Speed Step Technology - Base Frequency(SST-BF)]: https://github.com/brianeiler/ovs-dpdk/blob/master/lab-docs/0.0%20Lab%20Guide.md
