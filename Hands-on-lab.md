@@ -9,7 +9,7 @@
 
 &nbsp;
      
-## DAY 1(4/21) Agenda  
+## DAY 1(April 23) Agenda  
 
 | TIME                | DAY 1 SESSION |
 |---------------------|---------------|
