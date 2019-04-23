@@ -17,9 +17,9 @@
 | 09:00 am - 09:15 am | Welcome!      |
 | 09:15 am - 09:45 am | New Features for Optimal Performance: 2nd Gen Intel® Xeon® Scalable processor(CLX) & |
 |                     | Intel® Optane™ DC Persistent Memory (Apache Pass) |
-| 09:45 am - 10:45 am | 2nd Gen Intel® Xeon® Scalable processors (formerly Cascade Lake) for NFV |
-| 10:45 am - 11:00 am | Break |
-| 11:00 am - 11:30 am | Open Network Edge Services Software (OpenNESS) Toolkit & The Edge |
+| 09:45 am - 10:35 am | 2nd Gen Intel® Xeon® Scalable processors (formerly Cascade Lake) for NFV |
+| 10:35 am - 10:50 am | Break |
+| 10:50 am - 11:30 am | Open Network Edge Services Software (OpenNESS) Toolkit & The Edge |
 | 11:30 am - 12:00 pm | Intel® Select Solutions |
 | 12:00 pm - 12:45 pm | Lunch |
 | 12:45 pm - 01:00 pm | Hands on Labs - Getting Started |
