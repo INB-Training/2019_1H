@@ -15,7 +15,7 @@
 |---------------------|---------------|
 | 08:00 am - 09:00 am | Breakfast     |
 | 09:00 am - 09:15 am | Welcome!      |
-| 09:15 am - 09:45 am | New Features for Optimal Performance: 2nd Gen Intel® Xeon® Scalable processors(Cascade Lake) and |
+| 09:15 am - 09:45 am | New Features for Optimal Performance: 2nd Gen Intel® Xeon® Scalable processor(CLX) & |
 |                     | Intel® Optane™ DC Persistent Memory (Apache Pass) |
 | 09:45 am - 10:45 am | 2nd Gen Intel® Xeon® Scalable processors (formerly Cascade Lake) for NFV |
 | 10:45 am - 11:00 am | Break |
