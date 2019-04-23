@@ -46,4 +46,4 @@ This guide provides instructions that allow you to access INB NDA HoL(Hands-on-L
 - [ ] **Lab. #3(Day 2):** Vtune Amplifier
 - [ ] **Lab. #4(Day 2):** Vectorization and Acceleration on IA
 
- [Introduction to Speed Step Technology - Base Frequency(SST-BF)]: https://github.com/brianeiler/ovs-dpdk/blob/master/lab-docs/0.0%20Lab%20Guide.md
+ [Introduction to Speed Step Technology - Base Frequency(SST-BF)]: https://github.com/brianeiler/ovs-dpdk/tree/master/lab-docs
