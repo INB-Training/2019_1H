@@ -1,6 +1,7 @@
 # Intel Network Builder NDA Partner Training
-Lab Access User Guide : https://github.com/INB-Training/2019_1H/wiki/Hands-on-lab-for-NDA-training
-This guide provides instructions that allow you to access INB NDA HoL(Hands-on-Lab)
+Lab Access User Guide : This guide provides instructions that allow you to access INB NDA HoL(Hands-on-Lab)
+> https://github.com/INB-Training/2019_1H/wiki/Hands-on-lab-for-NDA-training
+
 
 # Start of the Lab Exercise
 
