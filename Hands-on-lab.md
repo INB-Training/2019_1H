@@ -1,11 +1,26 @@
 # Intel Network Builder NDA Partner Training
 
-## DAY 1 Agenda  
+## DAY 1(4/21) Agenda  
 
 | TIME                | DAY 1 SESSION |
 |---------------------|---------------|
 | 08:00 am - 09:00 am | Breakfast     |
 | 09:00 am - 09:15 am | Welcome!      |
+| 09:15 am - 09:45 am | New Features for Optimal Performance: 2nd Gen Intel® Xeon® Scalable processors (formerly Cascade Lake) and Intel® Optane™ DC Persistent Memory (formerly Apache Pass) |
+|---------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 09:45 am - 10:45 am | 2nd Gen Intel® Xeon® Scalable processors (formerly Cascade Lake) for NFV                                                                                              |
+| 10:45 am - 11:00 am | Break                                                                                                                                                                 |
+| 11:00 am - 11:30 am | Open Network Edge Services Software (OpenNESS) Toolkit & The Edge                                                                                                     |
+| 11:30 am - 12:00 pm | Intel® Select Solutions                                                                                                                                               |
+| 12:00 pm - 12:45 pm | Lunch                                                                                                                                                                 |
+| 12:45 pm - 01:00 pm | Hands on Labs - Getting Started                                                                                                                                       |
+| 01:00 pm - 01:30 pm | Lab 1: Introduction to Intel SpeedStep® Technology - Base Frequency                                                                                                   |
+| 01:30 pm - 02:30 pm | Lab 1: hands-on lab                                                                                                                                                   |
+| 02:30 pm - 02:45 pm | Break                                                                                                                                                                 |
+| 02:45 pm - 03:15 pm | Lab 1: Results and Conclusions                                                                                                                                        |
+| 03:15 pm - 03:45 pm | A Guide to Intel Resources and Support                                                                                                                                |
+| 03:45 pm - 04:15 pm | Wrap up                                                                                                                                                               |
+| 04:15 pm - 05:45 pm | Reception                                                                                                                                                             |
 
 
 
