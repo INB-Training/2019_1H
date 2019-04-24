@@ -9,6 +9,25 @@
 
 &nbsp;
      
+## DAY 2(April 24) Agenda  
+
+| TIME                | DAY 2 SESSION |
+|---------------------|---------------|
+| 08:00 am - 09:00 am | Breakfast     |
+| 09:00 am - 09:30 am | Welcome Back! |
+| 09:30 am - 10:30 am | Tools for Development and Analysis |
+| 10:30 am - 10:45 am | Break |
+| 10:45 am - 11:15 am | Lab #2: Intel® VTune™ Amplifier–Platform Profiler |
+| 11:15 am - 11:45 pm | What's Next: Intel Networking Technology Roadmap |
+| 11:45 pm - 12:30 pm | Lunch |
+| 12:30 pm - 02:00 pm | Lab #3: Intel® VTune™ Amplifier for Software Profiling and Optimization |
+| 02:00 pm - 02:15 pm | Break |
+| 02:15 pm - 02:45 pm | Lab #4: Vectorization using Intel® C++ Compiler, Intel® Math Kernel Library |
+| 02:45 pm - 03:45 pm | Insights from Intel NPG Benchmarking Team |
+| 03:45 pm - 04:15 pm | Thank you! |
+
+&nbsp; 
+     
 ## DAY 1(April 23) Agenda  
 
 | TIME                | DAY 1 SESSION |
@@ -23,13 +42,13 @@
 | 11:30 am - 12:00 pm | Intel® Select Solutions |
 | 12:00 pm - 12:45 pm | Lunch |
 | 12:45 pm - 01:00 pm | Hands on Labs - Getting Started |
-| 01:00 pm - 01:30 pm | Lab 1: Introduction to Intel SpeedStep® Technology - Base Frequency |
-| 01:30 pm - 02:30 pm | Lab 1: hands-on lab |
+| 01:00 pm - 01:30 pm | Lab #1: Introduction to Intel SpeedStep® Technology - Base Frequency |
+| 01:30 pm - 02:30 pm | Lab #1: hands-on lab |
 | 02:30 pm - 02:45 pm | Break |
-| 02:45 pm - 03:15 pm | Lab 1: Results and Conclusions |
+| 02:45 pm - 03:15 pm | Lab #1: Results and Conclusions |
 | 03:15 pm - 03:45 pm | A Guide to Intel Resources and Support |
 | 03:45 pm - 04:15 pm | Wrap up |
-| 04:15 pm - 05:45 pm | Reception |
+| 04:15 pm - 05:45 pm | Reception |    
 
 &nbsp;
 
