@@ -1,0 +1,101 @@
+Lab Prep
+--------
+
+Login to your assigned Cascade Lake server - replace XX with your assigned server number.
+
+$ ssh icnXX
+
+Environment setup:
+
+$ source /opt/intel/system_studio_2019/compilers_and_libraries_2019/linux/bin/compilervars.sh intel64
+
+Part 1: Intel(R) Compiler – Basic Optimization Switches
+-------------------------------------------------------
+
+Go to the lab directory:
+
+$ cd ~/vec_samples/src
+
+Compile and run the sample with different optimization switches:
+
+vec_samples/src$ icc -O0 -no-vec Driver.c Multiply.c -o MatVector.o0
+vec_samples/src$ ./MatVector.o0
+
+vec_samples/src$ icc -O1 Driver.c Multiply.c -o MatVector.o1 
+vec_samples/src$ ./MatVector.o1
+
+vec_samples/src$ icc -O2 Driver.c Multiply.c -o MatVector.o2
+vec_samples/src$ ./MatVector.o2
+
+Part 2: Intel(C) Compiler – Generating a Vectorization Report 
+-------------------------------------------------------------
+
+Compile the sample with a vectorization and loop report, and check the report:
+
+vec_samples/src$ icc -std=c99 -O2 -D NOFUNCCALL -qopt-report-phase=vec,loop -qopt-report=2 Multiply.c Driver.c -o MatVector.o2
+
+vec_samples/src$ cat Multiply.optrpt
+
+Part 3: Intel(C) Compiler – Improving Performance by Disabling Pointer Aliasing
+-------------------------------------------------------------------------------
+
+Compile the sample with a vectorization report, run it, and check the report:
+
+vec_samples/src$ icc -std=c99 -qopt-report=2 -qopt-report-phase=vec -D NOALIAS Multiply.c Driver.c -o MatVector.noalias
+
+vec_samples/src$ ./MatVector.noalias
+
+vec_samples/src$ cat Multiply.optrpt
+
+Part 4: Intel(C) Compiler – Improving Performance by Aligning Data
+------------------------------------------------------------------
+
+Compile the sample with a vectorization report, run it, and check the report:
+
+vec_samples/src$ icc -std=c99 -qopt-report=4 -qopt-report-phase=vec -D NOALIAS -D ALIGNED Multiply.c Driver.c -o MatVector.noalias.aligned
+
+vec_samples/src$ ./MatVector.noalias.aligned
+
+
+vec_samples/src$ cat Multiply.optrpt
+
+Part 5: Intel(C) Compiler – AVX512
+----------------------------------
+
+Compile the sample with default settings (no AVX512), generate assembly output:
+
+vec_samples/src$ icc -S -std=c99 -qopt-report=4 -qopt-report-phase=vec -D NOALIAS -D ALIGNED Multiply.c Driver.c 
+
+Open assembly output in VI editor:
+
+vec_samples/src$ vi Multiply.s
+
+Compile the sample with AVX512, generate assembly output:
+
+vec_samples/src$ icc -S -std=c99 -qopt-report=4 -qopt-report-phase=vec -D NOALIAS -D ALIGNED Multiply.c 
+Driver.c -xcore-avx512 -qopt-zmm-usage=high
+
+Open assembly output in VI editor:
+
+vec_samples/src$ vi Multiply.s
+
+Part 6: Intel(C) Math Kernel Library – Multiplying Matrices Using dgemm
+-----------------------------------------------------------------------
+
+Go to the lab directory:
+
+$ cd ~/matrix_multiplication/src
+
+Compile and run naive matrix multiplication implementation:
+
+matrix_multiplication/src$ icc -mkl -static-intel –O2 matrix_multiplication.c -o matrix_multiplication
+
+matrix_multiplication/src$ ./matrix_multiplication
+
+Compile and run the Intel(R) MKL DGEMM implementation:
+
+matrix_multiplication/src$ icc -mkl -static-intel -O2 dgemm_with_timing.c -o dgemm_with_timing 
+
+matrix_multiplication/src$ ./dgemm_with_timing
+
+
