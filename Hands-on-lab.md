@@ -65,7 +65,7 @@ This guide provides instructions that allow you to access INB NDA HoL(Hands-on-L
 - [ ] **Lab. #3(Day 2):** [Vtune Amplifier]
 - [ ] **Lab. #4(Day 2):** [Vectorization and Acceleration on IA]
 
-[Introduction to Speed Step Technology - Base Frequency(SST-BF)]: https://github.com/brianeiler/ovs-dpdk/tree/master/lab-docs
+[Introduction to Speed Step Technology - Base Frequency(SST-BF)]: https://github.com/brianeiler/ovs-dpdk/blob/master/lab/SST-BF%20Lab%20Guide.md
 [Vtune Platform Profiler(VPP)]: https://github.com/INB-Training/2019_1H/tree/master/Lab2
 [Vtune Amplifier]: https://github.com/abhinavsrinet/NPGWorkshop
 [Vectorization and Acceleration on IA]: https://github.com/INB-Training/2019_1H/tree/master/Lab4
